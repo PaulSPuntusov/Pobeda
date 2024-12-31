@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class ArmSed {
+public class ArmSedTest {
     WebDriver driver;
     WebDriverWait wait;
     WebElement element;
@@ -38,9 +38,9 @@ public class ArmSed {
     }
     @Test
     public void armsed(){
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10L));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20L));
         //driver.findElement(By.xpath("//button[@id=\"button_pusk\"]")).sendKeys(Keys.ENTER);
-        driver.findElement(By.xpath("//textarea[contains(@class,\"gLFyf\")]")).sendKeys(Keys.ENTER);
+        driver.findElement(By.xpath("//a[contains(@class,\"dp-bi33jb-root-root\")]")).sendKeys(Keys.ENTER);
     }
     @After
     public void tearDown(){driver.quit();}

@@ -10,6 +10,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2qzY8qnkk0dkdGIYpLvYn60gIm6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,13 +38,132 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArmSed.executor": "Run",
+    "JUnit.ArmSed.executor": "Run",
+    "JUnit.ArmSedTest.armsed.executor": "Run",
+    "JUnit.ArmSedTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "no-maven-jar-plugin",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.23264311",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ArmSedTest">
+    <configuration name="ArmSed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ArmSed" />
+      <module name="ARMSED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-21.0.1" />
+      <option name="MAIN_CLASS_NAME" value="ru.ArmSed" />
+      <module name="ARMSED" />
+      <selectedOptions>
+        <option name="environmentVariables" visible="false" />
+      </selectedOptions>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArmSed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ARMSED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru" />
+      <option name="MAIN_CLASS_NAME" value="ru.ArmSed" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArmSedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ARMSED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru" />
+      <option name="MAIN_CLASS_NAME" value="ru.ArmSedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArmSedTest.armsed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ARMSED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru" />
+      <option name="MAIN_CLASS_NAME" value="ru.ArmSedTest" />
+      <option name="METHOD_NAME" value="armsed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArmSed.armsed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ARMSED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru" />
+      <option name="MAIN_CLASS_NAME" value="ru.ArmSed" />
+      <option name="METHOD_NAME" value="armsed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArmSedTest" />
+        <item itemvalue="Application.ArmSed" />
+        <item itemvalue="JUnit.ArmSedTest.armsed" />
+        <item itemvalue="JUnit.ArmSed.armsed" />
+        <item itemvalue="JUnit.ArmSed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,6 +173,19 @@
       <option name="presentableId" value="Default" />
       <updated>1735582356385</updated>
     </task>
+    <task id="LOCAL-00001" summary="ткнем в АРМ">
+      <option name="closed" value="true" />
+      <created>1735587712160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735587712160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ткнем в АРМ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ткнем в АРМ" />
   </component>
 </project>
