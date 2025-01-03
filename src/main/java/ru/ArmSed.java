@@ -1,4 +1,5 @@
 package ru;
+
 public class ArmSed
 {
     public static void main( String[] args )

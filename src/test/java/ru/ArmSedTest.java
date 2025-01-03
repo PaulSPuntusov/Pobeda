@@ -1,6 +1,8 @@
 package ru;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Step;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.After;
 import org.junit.Before;
@@ -15,6 +17,8 @@ import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+
+import static org.testng.Assert.assertEquals;
 
 public class ArmSedTest {
     WebDriver driver;
@@ -37,11 +41,29 @@ public class ArmSedTest {
         driver.get("https://www.flypobeda.ru/");
     }
     @Test
-    public void armsed(){
-        wait = new WebDriverWait(driver, Duration.ofSeconds(20L));
+    public void armsed1(){
+       // wait = new WebDriverWait(driver, Duration.ofSeconds(20L));
         //driver.findElement(By.xpath("//button[@id=\"button_pusk\"]")).sendKeys(Keys.ENTER);
-        driver.findElement(By.xpath("//a[contains(@class,\"dp-bi33jb-root-root\")]")).sendKeys(Keys.ENTER);
+        assertEquals(driver.getCurrentUrl(),"https://www.flypobeda.ru/");
+        assertEquals(driver.getTitle(),"Авиакомпания «Победа» - купить авиабилеты онлайн, дешёвые билеты на самолёт, прямые и трансферные рейсы с пересадками");
+
+    }
+    @Test
+    public void armsed2(){
+        // wait = new WebDriverWait(driver, Duration.ofSeconds(20L));
+        //driver.findElement(By.xpath("//button[@id=\"button_pusk\"]")).sendKeys(Keys.ENTER);
+        driver.findElement(By.xpath("//img[contains(@alt,\"«Авиакомпания «Победа», Группа «Аэрофлот»\")]")).click();
     }
     @After
     public void tearDown(){driver.quit();}
+    @Step("Verify url is: {url}")
+    public void checkUrl(String url){
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals("url совпадает", currentUrl,url);
+    }
+    @Step("Verify title is: {title}")
+        public void checkTitle(String title){
+            String currentTitle = driver.getTitle();
+            Assert.assertEquals("Title совпадает ", currentTitle, title);
+        }
 }

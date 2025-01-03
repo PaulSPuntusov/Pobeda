@@ -26,10 +26,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2qzY8qnkk0dkdGIYpLvYn60gIm6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,14 +43,20 @@
     "JUnit.ArmSedTest.armsed.executor": "Run",
     "JUnit.ArmSedTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.ARMSED [clean].executor": "Run",
+    "Maven.ARMSED [compile].executor": "Run",
+    "Maven.ARMSED [package].executor": "Run",
+    "Maven.ARMSED [test].executor": "Run",
+    "Maven.ARMSED [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "no-maven-jar-plugin",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.23264311",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -181,11 +187,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735587712160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="подобрал рисунок, который ищется, создал 2 теста, не нашел как синтезировать папку аллюр">
+      <option name="closed" value="true" />
+      <created>1735762382258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735762382258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ткнем в АРМ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ткнем в АРМ" />
+    <MESSAGE value="подобрал рисунок, который ищется, создал 2 теста, не нашел как синтезировать папку аллюр" />
+    <option name="LAST_COMMIT_MESSAGE" value="подобрал рисунок, который ищется, создал 2 теста, не нашел как синтезировать папку аллюр" />
   </component>
 </project>
